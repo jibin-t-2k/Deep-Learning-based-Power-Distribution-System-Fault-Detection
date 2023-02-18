@@ -1,8 +1,5 @@
-Source codes for Deep Learning based Power Distribution System Fault Detection.  
-Machine Learning and Deep Learning models for Time Series Current Signal Classification and Localization.  
-Machine Learning models with Feature Engineering  
-LSTM GRU models  
-CNN Attention models  
-Transformer model
+<h1> CNN-Based Transformer Model for Fault Detection in Power System Networks </h1>
 
 DOI: https://doi.org/10.1109/tim.2023.3238059
+
+Fault detection and localization in electrical power lines has long been a crucial challenge for electrical engineers as it allows the detected fault to be isolated and recovered promptly. These faults, if neglected, can rupture the normal operation of the network and drastically damage the power lines and the equipment attached to it. The wastage of power and money due to these faults can be harmful to the economy of an industry or even a country. Therefore, efficient fault detection mechanisms have become crucial for the well-being of this power-hungry world. This research presents an end-to-end deep learning strategy to detect and localize symmetrical and unsymmetrical faults as well as high-impedance faults (HIFs) in a distribution system. This research proposes a novel deep convolutional neural network (CNN) transformer model to automatically detect the type and phase of the fault as well as the location of the fault. The proposed model utilizes 1-D deep CNNs for feature extraction and transformer encoder for sequence learning. The transformer encoder utilizes an attention mechanism to integrate the sequence embeddings and focus on significant time steps to learn long-term dependence to extract the context of the temporal current data. The different faults were simulated in MATLAB Simulink using IEEE 14-bus distribution system. The proposed models were found to produce better performance on the test database when evaluated using F1-Score, Matthews correlation coefficient (MCC), and accuracy. The models also produced better predictions on HIFs compared to conventional fault-detection techniques.
